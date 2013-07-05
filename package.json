@@ -1,0 +1,36 @@
+{
+  "name": "pony",
+  "version": "0.0.0",
+  "description": "Base for prototype apps with node, volo, and grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k88hudson/pony.git"
+  },
+  "author": "@k88hudson",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "~3.2.5",
+    "habitat": "~0.4.2",
+    "less-middleware": "~0.1.11",
+    "nunjucks": "~0.1.8a",
+    "fontawesome-express": "git://github.com/k88hudson/fontawesome-express.git#7f5f63c4e4",
+    "connect-fonts": "0.0.10",
+    "connect-fonts-opensans": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-recess": "0.3.3",
+    "grunt-contrib-jshint": "0.4.3"
+  },
+  "volo": {
+    "baseDir": "public/js/lib",
+    "dependencies": {
+      "jquery": "github:jquery/jquery/2.0.1",
+      "text": "github:requirejs/text/2.0.6"
+    }
+  }
+}
